@@ -1,0 +1,29 @@
+@charset 'UTF-8';
+@import "fonts/spacemono-definition";
+
+body {
+  font-family: 'spacemono-webpack', 'Comic Sans MS', monospace;
+  font-weight: 400;
+}
+
+em,
+i {
+  font-style: italic;
+}
+
+strong,
+b {
+  font-weight: bold;
+}
+
+strong em,
+strong i,
+b em,
+b i,
+em strong,
+em b,
+i strong,
+i b {
+  font-style: italic;
+  font-weight: bold;
+}
